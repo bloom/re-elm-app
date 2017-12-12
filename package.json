@@ -1,0 +1,28 @@
+{
+  "name": "re-elm-app",
+  "version": "1.0.0",
+  "description": "A small Reason library for mounting an Elm app and subscribing to its ports. Very early and incomplete. Contributions welcome.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bloom/re-elm-app.git"
+  },
+  "keywords": [
+    "reason",
+    "bucklescript",
+    "elm"
+  ],
+  "author": "Murphy Randle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bloom/re-elm-app/issues"
+  },
+  "homepage": "https://github.com/bloom/re-elm-app#readme",
+  "dependencies": {
+    "bs-json": "^0.2.4",
+    "bs-platform": "^2.1.0"
+  }
+}
