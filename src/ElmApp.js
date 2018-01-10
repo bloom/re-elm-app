@@ -41,7 +41,7 @@ function decodePortMsg(json) {
   }
 }
 
-var subscribeToPort = ((portName, cb, app) => {
+var subscribeToPort = (function(portName, cb, app) {
       app.ports[portName].subscribe(cb);
       return app;
     }
