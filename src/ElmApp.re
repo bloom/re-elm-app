@@ -34,7 +34,7 @@ let decodePortMsg = (json: Js.Json.t) : Js.Result.t(portMsg, string) =>
   };
 
 let subscribeToPort: (string, listener, t) => t = [%bs.raw
-  {|(portName, cb, app) => {
+  {|function(portName, cb, app) {
       app.ports[portName].subscribe(cb);
       return app;
     }
