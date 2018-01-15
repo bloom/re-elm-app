@@ -1,3 +1,10 @@
+# This project isn't as good as this other project!
+
+https://github.com/jaredramirez/reason-elm
+
+👆 use that one instead!
+
+
 # re-elm-app
 
 ```
